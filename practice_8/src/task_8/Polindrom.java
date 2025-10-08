@@ -7,6 +7,10 @@ public class Polindrom {
         this.text = text;
     }
 
+    public String getText() {
+        return text;
+    }
+
     public String isPolindrom(){
         StringBuilder builder = new StringBuilder(text.toLowerCase());
         if(text.toLowerCase().equals(builder.reverse().toString())){
