@@ -17,9 +17,9 @@ public class Main{
 
         System.out.println("Задание 10");
         int our_num = 234;
-        InvertNumber number = new InvertNumber(our_num);
+        InvertNumber number = new InvertNumber();
         System.out.println("Исходное число: " + our_num);
-        System.out.println("Результат инвертирования: " + number.invert());
+        System.out.println("Результат инвертирования: " + number.reverse(our_num));
         System.out.println("----------------");
     }
 }
