@@ -6,13 +6,23 @@ public class Student {
     private String special;
     private int course;
     private String group;
+    private double gpa;
 
-    public Student(String name, String surname, String special, int course, String group) {
+    public Student(String name, String surname, double gpa, String special, int course, String group) {
         this.name = name;
         this.surname = surname;
+        this.gpa = gpa;
         this.special = special;
         this.course = course;
         this.group = group;
+    }
+
+    public double getGpa() {
+        return gpa;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
     }
 
     public String getName() {
@@ -59,6 +69,7 @@ public class Student {
                 ", special='" + special + '\'' +
                 ", course=" + course +
                 ", group='" + group + '\'' +
+                ", gpa=" + gpa +
                 '}';
     }
 

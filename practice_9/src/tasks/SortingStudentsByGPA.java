@@ -29,9 +29,9 @@ public class SortingStudentsByGPA implements Comparator<Student> {
             if (buf == 0) {
                 medium.add(s);
             } else if (buf < 0) {
-                left.add(s);
-            } else {
                 right.add(s);
+            } else {
+                left.add(s);
             }
         }
 
