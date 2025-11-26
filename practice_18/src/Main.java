@@ -1,6 +1,6 @@
-import my_package.Exception1;
-import my_package.Exception2;
-import my_package.ThrowsDemo;
+import main.my_package.Exception1;
+import main.my_package.Exception2;
+import main.my_package.ThrowsDemo;
 
 import java.util.Scanner;
 

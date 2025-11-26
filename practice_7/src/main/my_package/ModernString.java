@@ -1,9 +1,9 @@
-package my_package;
+package main.my_package;
 
-public class ModernString implements WorkString{
+public class ModernString implements WorkString {
     private String str;
 
-    public ModernString(String str){
+    public ModernString(String str) {
         this.str = str;
     }
 
@@ -11,7 +11,7 @@ public class ModernString implements WorkString{
     public int getCount(char symbol) {
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
-            if(symbol == str.charAt(i)){
+            if (symbol == str.charAt(i)) {
                 count++;
             }
         }

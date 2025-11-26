@@ -1,4 +1,4 @@
-import my_package.Order;
+import main.my_package.Order;
 
 import java.util.Scanner;
 

@@ -1,12 +1,12 @@
-import my_package.Movable;
-import my_package.MovableCircle;
-import my_package.MovablePoint;
-import my_package.MovableRectangle;
+import main.my_package.Movable;
+import main.my_package.MovableCircle;
+import main.my_package.MovablePoint;
+import main.my_package.MovableRectangle;
 import task_3.Dog;
 import task_3.Nameable;
 import task_3.People;
 
-public class Main{
+public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
         System.out.println("-------------------");

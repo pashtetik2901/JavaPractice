@@ -1,4 +1,4 @@
-package my_package;
+package main.my_package;
 
 public class Exception1 {
     public void exceptionDemo() {

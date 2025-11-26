@@ -1,4 +1,4 @@
-package my_package;
+package main.my_package;
 
 public class CommonClass<E, T, K> {
     private E first;

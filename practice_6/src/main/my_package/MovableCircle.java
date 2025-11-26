@@ -1,8 +1,8 @@
-package my_package;
+package main.my_package;
 
-public class MovableCircle implements Movable{
-     private int radius;
-     private MovablePoint center;
+public class MovableCircle implements Movable {
+    private int radius;
+    private MovablePoint center;
 
 
     public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
@@ -11,8 +11,8 @@ public class MovableCircle implements Movable{
     }
 
     @Override
-    public String toString(){
-        return  "radius = " + radius + ";\n" + center.toString() + "\n";
+    public String toString() {
+        return "radius = " + radius + ";\n" + center.toString() + "\n";
     }
 
     @Override

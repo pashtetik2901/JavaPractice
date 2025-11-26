@@ -1,6 +1,6 @@
-import my_package.Catalog;
-import my_package.Storage;
-import my_package.TaskOther;
+import main.my_package.Catalog;
+import main.my_package.Storage;
+import main.my_package.TaskOther;
 
 import java.util.List;
 

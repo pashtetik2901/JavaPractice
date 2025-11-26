@@ -1,4 +1,4 @@
-package my_package;
+package main.my_package;
 
 public class Order {
     public static String checkINN(String inn) throws InnException {

@@ -1,5 +1,5 @@
-import my_package.Animal;
-import my_package.SecondTaskClass;
+import main.my_package.Animal;
+import main.my_package.SecondTaskClass;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Main {
         System.out.println(cls.getTypes());
         System.out.println("\n--------------------\n");
 
-        // Решение для первого и третьего лежат в пакете my_package
+        // Решение для первого и третьего лежат в пакете main.my_package
         // Решенеи для второго это расширение функционала второго класса
     }
 }
