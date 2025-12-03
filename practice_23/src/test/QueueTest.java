@@ -31,7 +31,6 @@ public class QueueTest {
         Queue q1 = new ArrayQueue();
         Queue q2 = new LinkedQueue();
 
-        // ArrayQueue
         q1.enqueue(1);
         q1.enqueue(2);
         q1.enqueue(3);
@@ -44,7 +43,6 @@ public class QueueTest {
         assertEquals(3, q1.dequeue());
         assertTrue(q1.isEmpty());
 
-        // LinkedQueue
         q2.enqueue(1);
         q2.enqueue(2);
         q2.enqueue(3);
@@ -78,7 +76,6 @@ public class QueueTest {
 
     @Test
     void testNullEnqueue() {
-        Queue q1 = new ArrayQueue();
         Queue q2 = new LinkedQueue();
 
         assertThrows(Exception.class, () -> q2.enqueue(null));
