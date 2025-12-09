@@ -21,4 +21,9 @@ public class Complex {
     public int getReal() {
         return real;
     }
+
+    @Override
+    public String toString() {
+        return "real=" + real + ", imag=" + imag;
+    }
 }
